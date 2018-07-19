@@ -1,9 +1,5 @@
-﻿ISBN,Genre_ID,Author_ID,PublisherID,CoverImage,Copies_sold,Book_description,Release_date,Price,
-9780261103283,SCI,13,4,"/book_images/TheHobbit.jpg",1814,"A great modern classic and the prelude to The Lord of the Rings.
- 
-Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum.
-
-“A glorious account of a magnificent adventure, filled with suspense and seasoned with a quiet humor that is irresistible . . . All those, young or old, who love a fine adventurous tale, beautifully told, will take The Hobbit to their hearts.” – New York Times Book Review",2012-07-26,55.08,The Hobbit
+ISBN,Genre_ID,Author_ID,PublisherID,CoverImage,Copies_sold,Book_description,Release_date,Price,
+374601255-4,TIC,13,4,None,1814,Blah,2012-07-26,55.08,
 484886504-2,ADV,23,4,None,6615,Blah Blah,2018-04-10,90.51,
 543355525-9,BZW,22,5,None,6770,Blah Blah Blah,2008-09-14,84.98,
 613811209-1,TIC,27,4,None,8315,Blah,2003-07-30,56.85,
@@ -67,4 +63,4 @@ Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely tra
 451451144-7,TIC,21,1,None,7846,Blah,2010-07-23,98.49,
 546323938-X,EBP,26,4,None,1403,Blah Blah,2017-06-17,91.65,
 621334348-2,CDP,12,3,None,6704,Blah Blah Blah,2012-09-10,99.32,
-246916072-3,EBP,12,4,None,8213,Blah,2007-09-11,67.87,
+246916072-3,EBP,12,4,book_images/888.jpg,8213,Blah,2007-09-11,67.87,

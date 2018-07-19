@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{%  block additionalImports %}
+{% endblock %}
+
+
+
+{% block content %}
+<div class="container">
+    <h1>Profile information:</h1>
+
+    <div class="card">
+        <img src="/media/profile_images/img_avatar.png" alt="Avatar" style="width:30%">
+        <div class="container">
+            <h4>{{userinfo.AuthUser_ID.first_name}} {{userinfo.AuthUser_ID.last_name}}</h4> 
+        </div>
+    </div>
+    
+    <p> First Name: {{ userinfo.AuthUser_ID.first_name }}<br>
+        Last Name: {{ userinfo.AuthUser_ID.last_name }}<br>
+        Username: {{ userinfo.AuthUser_ID.username }}</p><br>
+
+    <p> ProfileID: {{ userinfo.ProfileID }} <br>
+        CartID: {{ userinfo.Cart_ID }}</h3> </p>
+    <hr>
+    
+    <h1> Billing information</h1>
+    {% for cc  in credit_cards %}
+        <h3>Credit Card #{{ forloop.counter }}</h3> 
+        First Name: {{cc.Fname}} <br>
+        Last Name: {{cc.Lname}} <br>
+        Exp Year: {{cc.Exp_year}} <br>
+        Exp Month: {{cc.Exp_month}} <br>
+    {% endfor %}
+    
+    <form action="{% url 'prof:add_reserved_card' %}">
+        <input type="submit" class="btn btn-success" value="Add a credit card" />
+    </form>
+
+    <a href="/">Click here to choose a default credit card for payment</a> <!-- -->
+</div> 
+{% endblock %}

@@ -1,18 +1,18 @@
-﻿CommentID,ISBN,Username,
-1,rdigiacomettinow,cwinnardf,
-3,gvallentinec,iquarrell12,
-4,rbeadnell7,vvanhaeften0,
-5,jkornelq,cchippin18,
-6,jkornelq,cchippin18,
-7,jkornelq,cchippin18,
-8,darnaldox,kgounya,
-9,rdigiacomettinow,cwinnardf,
-10,dlumsdainet,zsorrop,
-11,adenslowv,cchippin18,
-12,seddins1b,idenyukhin10,
-13,rdigiacomettinow,cwinnardf,
-14,aissacoff1a,gantonucciu,
-15,dlumsdainet,gantonucciu,
-16,darnaldox,zlantaphe,
-17,vgainsborough14,adenslowv,
-18,cchippin18,zlantaphe,
+CommentID	ISBN	ProfileID
+1	rdigiacomettinow	1
+3	gvallentinec	1
+4	rbeadnell7	2
+5	jkornelq	3
+6	jkornelq	3
+7	jkornelq	4
+8	darnaldox	5
+9	rdigiacomettinow	6
+10	dlumsdainet	7
+11	adenslowv	11
+12	seddins1b	23
+13	rdigiacomettinow	25
+14	aissacoff1a	44
+15	dlumsdainet	45
+16	darnaldox	46
+17	vgainsborough14	47
+18	cchippin18	48
